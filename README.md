@@ -13,7 +13,7 @@ all the code needed to reproduce its figures from scratch.
 
 1. A **linear** autoencoder trained with mean-squared error reaches the same reconstruction
    error as **PCA** (0.0153 vs 0.0152 at 32 dimensions)  a textbook confirmation of the
-   Baldi & Hornik (1989) / Bourlard & Kamp (1988) result.
+   Baldi & Hornik (1989) Bourlard & Kamp (1988) result.
 2. A **nonlinear** autoencoder beats PCA at every bottleneck size, with the largest gap
    under hard compression (≈ one-third lower error at 2 dimensions).
 3. The autoencoder's 2-D latent space separates the clothing classes more cleanly than the
